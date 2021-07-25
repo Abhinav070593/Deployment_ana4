@@ -1,5 +1,5 @@
 click==7.0
-flask==1.1.1
+flask>=1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
@@ -11,4 +11,5 @@ matplotlib>=1.4.3
 pandas>=0.19
 scikit-learn
 joblib==0.14.0
-tensorflow-cpu==2.5.0
+tensorflow-cpu>=2.5.0
+re
