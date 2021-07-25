@@ -77,7 +77,7 @@ def predict():
     labels = np.array(['Stage_1', 'Stage_2', 'Stage_3', 'Stage_4', 'Stage_5'])
     labels.sort()
     results = np.argmax(pred,axis=-1)
-    predicted_label = labels[results]
+    predicted_label = labels[results][1]
 
     
     labels = ['Stage_1', 'Stage_2', 'Stage_3', 'Stage_4', 'Stage_5']
